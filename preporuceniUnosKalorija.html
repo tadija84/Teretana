@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GYM GUIDE</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+
+<body style=" background:url('./slike/pozadina.jpg');">
+        <a href="pocetna.html"><img src="./slike/logo.png" alt="logo" id="logo"></a>
+    <nav class="navNeulogovan">
+        <a class="tablinkNeulogovan" href="pocetna.html">Početna</a>
+        <a class="tablinkNeulogovan" href="preporuceniProgram.html">Preporučeni program</a>
+        <a class="tablinkNeulogovan" href="razlicitiProgrami.html">Vežbe zagrevanja</a>
+        <a class="tablinkNeulogovan" href="programiPoGrupama.html">Programi za grupe mišica</a>
+        <a class="tablinkNeulogovan" href="treninziPoznatih.html">Treninzi poznatih</a>
+        <a class="tablinkNeulogovan" href="spisakVezbi.html">Spisak vežbi</a>
+        <a class="tablinkNeulogovan" href="procenatMasti.html">Procenat masti</a>
+        <a class="tablinkNeulogovan" href="?" style=" border-bottom: solid rgb(181,211,52) 1px;">Preporučeni unos kalorija</a>
+        <a class="tablinkNeulogovan" href="kardio.html">Kardio trening</a>
+    </nav>
+    <a class="tabZaLogovanje" href="gymguide.html">Uloguj se</a>
+    <div id="omotKalorije">
+        <div id="divOKalorijama">
+            <p>Za potrebe intezivnijeg mišićnog rada neophodno je obezbediti dovoljne količine energije.Istovremeno je potrebno
+                i nadoknaditi one biološki neophodne materije koje kao što su to belančevine, minerali i vitamini, imaju
+                veliki značaj za procese plastičnog metabolizma našeg organizma.</p>
+            <p>Ako se ima u vidu činjenica da se u toku jednočasovnog vežbanja sa tegovima "sagori" oko 460 kalorija, jasno
+                je da tu energiju, ukoliko nam nije namera da "skidamo" težinu, treba nadoknaditi. Međutim, prethodno je
+                potrebno znati kolike su naše potrebe.</p>
+            <p>Saznajte svoje kalorijske potrebe na dnevnom nivou.</p>
+        </div>
+        <div id="upitZaKalorije">
+            <form action="?" id="formaZaKalorije">
+                <p>Odaberite pol</p>
+                <label for="male">Muško</label>
+                <input type="radio" name="gender" value="male" checked>
+                <br>
+                <label for="female">Žensko</label>
+                <input type="radio" name="gender" value="female" >
+                <br>
+                <br>
+                <label for="tezina">Unesite vašu težinu</label>
+                <input type="text" name="tezina" id="tezinaZaKalorije" required>
+                <p>Da li trenirate</p>
+                <label for="trenira">Da</label>
+                <input type="radio" name="trenira" value="da" checked>
+                <br>
+                <label for="trenira">Ne</label>
+                <input type="radio" name="trenira" value="ne">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+        <div id="rezultatZaKalorije"></div>
+    </div>
+    <div id="powered">Powered by Tadija</div>
+    <script src="preporuceniUnosKalorija.js"></script>
+</body>
+
+</html>

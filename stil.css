@@ -1,0 +1,523 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background-image: url("./slike/pozadina-1.jpg");
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-position: center top;
+      
+}
+#logo{
+    position: relative;
+    float: left;
+    left: 30px;
+    top: 30px;
+    height: 45px;
+    position: fixed;
+}
+#powered{
+    position: relative;
+    float: left;
+    left: 30px;
+    bottom: 10px;
+    position: fixed;
+    font-size: 10pt;
+}
+#navNaPocetnoj, .navNeulogovan{
+    position: relative;
+    float: left;
+    top: 150px;
+  display: inline-block;
+    border-right: solid #b5ea00 1px;
+    width: 15%;
+    margin-right: 2%;
+}
+.tablinkNaPocetnoj, .tablinkNeulogovan{
+    clear: both;
+    position: relative;
+    float: left;
+    display: block;
+    right: 170px;
+    text-decoration: none;
+    color:white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px 10px 5px;
+    font-size: 13px;
+    margin-right: 1px;
+    font-family: Arial;
+    font-style: italic; 
+    height: 30px;
+    white-space: nowrap;
+}
+.tablinkNeulogovan a{
+    position: relative;
+    float: left;
+    left: 5%;
+}
+.tabZaLogovanje{
+    position: fixed;
+    display: inline;
+    text-decoration: none;
+    color:white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px 10px 32px;
+    font-size: 20px;
+    right: 0%;
+    margin-right:15px; 
+    font-family: Arial;
+    font-style: italic; 
+    height: 30px;
+    white-space: nowrap;
+}
+ #divoviPoznatih{
+    position: relative;
+  top: 80px;
+}
+.levo,.centar,.desno{
+    position: relative;
+    float: left;
+    width:27%;
+    height: 500px;
+}
+/*.desno{
+    width:29%;
+}*/
+#divoviNaPocetnoj{
+    position: relative;
+float: left;
+height: 180px;
+display: block;
+ margin: 1%;
+margin-left: 20%;
+top: 140px;
+}
+
+.divNaPocetnoj, .divPoznatog{
+    position: relative;
+    float: left;
+    width: 90%;
+    margin: 1%;
+    height: 180px;
+    display: block
+}
+ .desno div,.levo div{
+    height: 30%;
+}
+
+.centar div{
+    position: relative;
+    height: 47%;
+}
+.divNaPocetnoj:hover, .divPoznatog:hover, .vezbeZaGrupeMisicaDiv:hover{
+    border: solid hsla(74, 30%, 46%) 3px;
+}
+.divNaPocetnoj p, .divPoznatog p{
+    position: absolute;
+    background: whitesmoke;
+    bottom: 10px;
+    width: 100%;
+    color: black;
+}
+
+#register,
+#zaboravljenaSifra,
+#ulogovan,
+#promenaSifre,
+#mojProfil,
+#izmeniProfil,
+#program,
+#programZaSedmicu,
+#daLiSiSiguran,
+#logoutPage {
+    display: none;
+}
+#ulogovan{
+    min-height: 500px;
+} 
+#mojProfil{
+    width: 100%;
+    z-index: +1;
+}
+#program{position: relative;
+    float: left;
+    width: 60%;
+    min-height: 200px;
+    margin-left: 20%;
+    top: 150px;
+    background-color: rgba(0, 0, 0,0.7);
+}
+#tabelaNaDan{
+    
+ align-content: center;
+  margin-top: 40px;
+    width: 80%;
+   margin-left: 10%
+}
+#izmeniProfil{
+    position: relative;
+    width: 50%;
+    left: 25%;
+    
+    margin-top: 8%;
+    align-content: center;
+}
+
+table, thead, td{
+    border: 0;
+ font-family: Arial;
+ font-style: italic;
+ font-size: 11pt;
+ background-color: rgba(0, 0, 0,0.7);
+ outline-width: 3px;
+ 
+}
+table{
+    width:100%;
+}
+thead,td, th {
+ outline: solid #b5ea00 1px;
+}
+td{
+    padding: 2px,5px;
+    text-align: center;
+}
+tr :first-child{
+    text-align: left;
+    width:60%;
+}
+.strelice{
+    clear: both;
+    width: 100%;
+    background-color: black;
+    
+    color: white;
+}
+.tabSaStrelicom{
+   width:20%;
+}
+
+#tabelaNaDan:hover,#tabelaZaSedmicu:hover, #home:hover{
+    border: solid hsla(74, 30%, 46%) 3px;
+}
+#programZaSedmicu{
+    position: relative;
+    float: left;
+    width: 60%;
+    margin-left:15%;
+    top: 150px;
+    background-color: rgba(0, 0, 0,0.7);   
+}
+
+#tabelaZaSedmicu{
+    position: relative;
+    align-content: center;
+float: left;
+margin-top: 50px;
+margin-bottom: 50px;
+    width: 80%;
+   left: 10%
+}
+
+nav{clear: both;
+    position: relative;
+    float: right;
+    right: 0;
+    top: 30px;
+    font-size: 11pt;
+    position: fixed;
+    padding-left: 180px;
+    
+    display: inline;
+}
+.tablink {
+  text-decoration: none;
+   background-color: rgba(85,85,85, 0);
+    color:white;
+    float: left;
+    border: solid black 1px;
+    outline: none;
+    cursor: pointer;
+    padding: 1px 10px;
+    font-size: 15px;
+    margin-right: 1px;
+   font-family: Arial;
+   font-style: italic;
+   display: inline;
+    height: 40px;
+    white-space: nowrap;
+}
+
+.tablink:hover {
+    border-bottom: solid rgb(181,211,52) 3px;
+}
+body{
+    color: white;
+}
+#login > img{
+    position: center top;
+    width: 100%;
+}
+#izmeniProfil img{
+   position: relative;
+   width: 100%;
+}
+#sadrzajPromenePodataka{
+    position: relative;
+    z-index: 2;
+    bottom: 700px;  
+}
+/*#izmeniProfil{
+   background-image: url( 04-izmena-profila.jpg);
+background-size: cover;
+background-pozition: center top;
+background-repeat: no-repeat;
+min-height: 800px;
+}*/
+footer{
+    background: #777;
+}
+
+#home{
+    position: relative;
+    float: left;
+    top: 150px;
+   left: 25%;
+    width: 45%;
+    background-color: rgba(0, 0, 0,0.7);
+}
+ #ispisOsnovnihPodataka{
+    position: relative;
+    float: left;
+   left: 25%;
+    width: 90%;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+#daLiSiSiguran{
+    position: relative;
+    top:150px;
+    left:45%;
+    width: 200px;
+    height: 100px;
+    border: solid red 2px;
+}
+#zaDa, #zaNe{
+width: 47%;
+margin:1%;
+float: left;
+}
+#sadrzajProcentaMasti{
+    position: relative;
+    display: block;
+    
+    width: 50%;
+    margin-left: 25%;
+    top: 150px;
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.7);
+    height: 400px;
+}
+#infoOProcentuMasti{
+    margin-top: 5%;
+}
+#infoOProcentuMasti p{
+  
+margin-bottom: 1px;
+margin-top: 1px;
+}
+#formaProcentaMasti fieldset{ 
+    width:48%;
+    height: 150px;
+    float: left;
+    margin: 1%;
+    margin-top: 5%
+}
+label {
+     width: 10em;
+     display: inline-block;
+    }
+#formaProcentaMasti label{
+    float: left;
+}
+#formaProcentaMasti fieldset input{
+    margin: 5px;
+}
+#divTezina, #divGodine, #divVisina{
+    height: 50%;
+    padding-top: 15px
+}
+#poloviDiv{
+    position: relative;
+    float: right;
+}
+#divPol p{
+    position: relative;
+    float: left;
+}
+#omotKalorije{
+    position: relative;
+    float: left;
+    top: 100px;
+    background-color: rgba(0, 0, 0,0.7);
+    height: 500px;
+    width: 60%;
+    margin-left: 5%;
+    }
+#divOKalorijama{
+    position: relative;
+    float: left;
+    width: 90%;
+    align-content: center;
+   margin-left: 5%;
+}
+#upitZaKalorije{
+    position: relative;
+    float: left;
+    width: 90%;
+    align-content: center;
+    margin-left: 5%;
+}
+
+#rezultatZaKalorije{
+    position: relative;
+    float: left;
+    width: 60%;
+    align-content: center;
+    margin-left: 20%;
+    font-size: 20px;
+    text-align: center;
+}
+.tabelaTreningPoznatog{
+    position: relative;
+    float: left;
+    display:none;
+    background-color: rgba(0, 0, 0,0.5);
+    margin-left: 15%;
+    top: 140px;
+    padding: 20px 60px 40px 60px ;
+    text-transform: lowercase;
+}
+.tabelaTreningPoznatog tr :first-child{
+    width: auto;
+}
+.divoviPoznatih {
+text-align: center;
+}
+.zatvoritiTabeluPoznatog, .zatvoritiDivVezbi{
+    position: relative;
+    float: right;
+
+
+}
+#tabelaSaPrepProgramom{
+    position: relative;
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+    top: 160px;
+}
+#divSaVezbama{
+    position: relative;
+    width: 70%;
+    margin-left: 20%;
+    top: 140px;
+height: 300px;
+}
+.vezbeZaGrupeMisicaDiv{
+position: relative;
+float: left;
+width: 30%;
+margin: 1%;
+height: 180px;
+}
+.divSaVezbamaSkriven{
+    position: relative;
+    float: left;
+    display: none;
+    width: 60%;
+    margin-left: 10%;
+    background-color: rgba(0, 0, 0,0.7);
+
+}
+.divSaVezbamaSkriven img{
+    margin-left: 10%;
+}
+.divSaVezbamaSkriven p{
+    margin-left: 10%;
+    margin-right: 10%
+}
+.divSaVezbamaSkriven h3, .divSaVezbamaSkriven h1{
+    margin-left: 10%;
+}
+.divSaVezbamaSkriven div{
+    margin-top: 20px;
+    border: solid rgba(21, 21, 21,0) 1px;
+}
+.zatvoritiDivVezbi img{
+    position: fixed;
+   right: 14%;
+}
+#formaPreporucenogTreninga{
+    position: relative;
+    float: left;
+    top: 129px;
+}
+#formaPreporucenogTreninga select, #formaPreporucenogTreninga input{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#statistika{
+    position: relative;
+    float: left;
+    width: 60%;
+    margin-left: 15%;
+    top: 130px;
+    background-color: rgba(0, 0, 0,0.7);
+}
+#podaciOPrethodnimTreninzima{
+    position: relative;
+    float: left;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.dugmeZaStampu{
+    position: relative;
+    float: right;
+}
+#promenaSifre{position: relative;
+    float: left;
+    width: 200px;
+    height: 150;
+    top: 200px;
+    margin-left: 40%;
+}
+#zaIspis{
+    position: relative;
+    top: 100px;
+    margin-left: 15%;
+    background-color: rgba(0, 0, 0,0.7);
+    width: 50%;
+    padding-left: 10%;
+}
+#zaIspis :first-child{
+width: 20px;
+}
+.kockica{
+    min-width: 350px;
+}
+#divZaGrupu{
+    position: relative;
+    top: 100px;
+    left: 10%;
+}

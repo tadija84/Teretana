@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GYM GUIDE</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+
+<body style=" background:url('./slike/pozadina8.jpg'); background-attachment: fixed;background-size: cover;">
+        <a href="pocetna.html"><img src="./slike/logo.png" alt="logo" id="logo"></a>
+    <nav class="navNeulogovan">
+        <a class="tablinkNeulogovan" href="pocetna.html">Početna</a>
+        <a class="tablinkNeulogovan" href="preporuceniProgram.html">Preporučeni program</a>
+        <a class="tablinkNeulogovan" href="razlicitiProgrami.html">Vežbe zagrevanja</a>
+        <a class="tablinkNeulogovan" href="programiPoGrupama.html">Programi za grupe mišica</a>
+        <a class="tablinkNeulogovan" href="treninziPoznatih.html">Treninzi poznatih</a>
+        <a class="tablinkNeulogovan" href="?" style=" border-bottom: solid rgb(181,211,52) 1px;">Spisak vežbi</a>
+        <a class="tablinkNeulogovan" href="procenatMasti.html">Procenat masti</a>
+        <a class="tablinkNeulogovan" href="preporuceniUnosKalorija.html">Preporučeni unos kalorija</a>
+        <a class="tablinkNeulogovan" href="kardio.html">Kardio trening</a>
+    </nav>
+    <a class="tabZaLogovanje" href="gymguide.html">Uloguj se</a>
+    <div id="divSaVezbama">
+        
+        <div id="vezbeZaRamena" class="vezbeZaGrupeMisicaDiv" style=" background:url('./slike/ramenaNapred2.jpg');background-size: cover;background-repeat: no-repeat;"
+            onclick="prikazDiva('divSaVezbamaZaRamena');">
+            <h2> Vežbe za ramena</h2>
+        </div>
+        <div id="vezbeZaGrudi" class="vezbeZaGrupeMisicaDiv" style=" background:url('./slike/benchPress1.jpg');background-size: cover;background-repeat: no-repeat;"
+            onclick="prikazDiva('divSaVezbamaZaGrudi');">
+            <h2> Grudi</h2>
+
+        </div>
+        <div id="vezbeZaLedja" class="vezbeZaGrupeMisicaDiv" style=" background:url('./slike/latMasina1.jpg');background-size: cover;background-repeat: no-repeat;"
+            onclick="prikazDiva('divSaVezbamaZaLedja');">
+            <h2> Leđa</h2>
+        </div>
+        <div id="vezbeZaBiceps" class="vezbeZaGrupeMisicaDiv" style=" background:url('./slike/koncentracioniBiceps1.jpg');background-size: cover;background-repeat: no-repeat;"
+            onclick="prikazDiva('divSaVezbamaZaBiceps');">
+            <h2> Biceps</h2>
+        </div>
+        <div id="vezbeZaTriceps" class="vezbeZaGrupeMisicaDiv" style=" background:url('./slike/tricepsStojeci1.jpg');background-size: cover;background-repeat: no-repeat;"
+            onclick="prikazDiva('divSaVezbamaZaTriceps');">
+            <h2>Triceps</h2>
+        </div>
+        <div id="vezbeZaNoge" class="vezbeZaGrupeMisicaDiv" style=" background:url('./slike/cucanj.jpg');background-size: cover;background-repeat: no-repeat;" onclick="prikazDiva('divSaVezbamaZaNoge');">
+            <h2> Noge</h2>
+        </div>
+    </div>
+    <div id="divSaVezbamaZaGrudi" class="divSaVezbamaSkriven">
+            <div class="zatvoritiDivVezbi" onclick="zatvoritiDivVezbi('divSaVezbamaZaGrudi');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <h1>Vežbe za grudi </h1>
+        <div>
+            <h3>Bench press</h3>
+            <img src="./slike/benchPress1.jpg" alt="bencPocetnaPoza">
+            <img src="./slike/benchPress2.jpg" alt="bencPocetnaPoza">
+            <p>Podignite šipku iznad sebe sa ispruženim rukama. Lagano spuštajte šipku dok vam ne dotakne grudi. Podignite šipku u početni položaj. Ponovite vežbu. 
+                Udah na dole. Izdah na gore. Pokret na dole je sporiji od onog na gore. Vežbu treba raditi ili sa trening partnerom ili sa manjim težinama, zbog bezbednosti.
+        </div>
+        <div>
+            <h3>Kosi bench press</h3>
+            <img src="./slike/kosiBench.jpg" alt="kosiBench">
+            <p>Vežba se izvodi isto kao i klasican benč pres s tim sto je klupa uzdignuta i telo je u kosom položaju. Rade drugi
+                mišići tako da treba biti oprezan jer možda nećete uspeti da podignete onu težinu kao u klasičnom benču.
+                Važi isti savet: neka neko bude tu da vam pomogne.</p>
+        </div>
+        <div>
+            <h3>Obrnuto kosi bench press</h3>
+            <img src="./slike/obrnutoKosoBench1.jpg" alt="obrnutoKosiBenc1">
+            <img src="./slike/obrnutoKosiBench2.jpg" alt="obrnutoKosiBenc2">
+            <p>Vežba se izvodi na kosoj klupi sa glavom naniže. Rade donji mišići grudi. Izvodi se isto kao klasičan benč. 
+                Ovu vežbu možete izvoditi i sa bućicama ili jednoručnim tegovima.</p>
+              </div>
+        <div>
+            <h3>Sklekovi</h3>
+            <img src="./slike/sklek1.jpg" alt="sklek1">
+            <img src="./slike/sklek2.jpg" alt="sklek1">
+            <p>Leđa moraju biti prava. Pogled ide ispred sebe. Ruke su u širini ramena. Udan na dole, izdah pri podizanju. Laktovi
+                pored tela, ne sa strane.</p>
+        </div>
+        <div>
+            <h3>Dizanje bućica sa obe ruke</h3>
+            <img src="./slike/dizanjeBucica.jpg" alt="dizanjeBucica" height="315" width="450">
+
+            <p>Ova vezba je skoro ista kao kosi benč pres. Jedina razlika je što se koriste bućice. Opcija jeste i da se ruke
+                rotiraju u toku dizanja.</p>
+        </div>
+        <div>
+            <h3>Razvlačenje</h3>
+            <img src="./slike/razvlacenje1.jpg" alt="razvlacenje">
+            <img src="./slike/razvlacenje2.jpg" alt="razvlacenje">
+            <p>Lezite na klupu i postavite bućice iznad sebe. Lagano raširite ruke skoro do vodoravnog položaja i vratite ih
+                nazad. Prilikom spuštanja udah, izdah prilikom podizanja. Budite oprezni dok izvodite ovu vežbu i u početku
+                ne koristite veće težine. Savijte blago laktove prilikom spuštanja tako da bućice budu malo iznad visine
+                tela.
+            </p>
+        </div>
+    </div>
+    <div id="divSaVezbamaZaBiceps" class="divSaVezbamaSkriven">
+            <div class="zatvoritiDivVezbi" onclick="zatvoritiDivVezbi('divSaVezbamaZaBiceps');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <h1>Vežbe za biceps</h1>
+        <div>
+            <h3>Dizanje jednoručnog tega</h3>
+            <img src="./slike/koncentracioniBiceps1.jpg" alt="koncentraciniBiceps">
+            <img src="./slike/koncentracioniBiceps2.jpg" alt="koncentraciniBiceps">
+            <p>Sedite na ivicu klupe i uzmite teg jednom rukom. Stavite ruku između nogu i naslonite lakat na butinu iznad
+                kolena sa unutrasnje strane butine. Podižite teg savijanjem lakta. Nadlaktica i ramena su fiksirani.
+            </p>
+        </div>
+        <div>
+            <h3>Dizanje dvoručnog tega sa Skotove klupe</h3>
+            <img src="./slike/skotovaKlupa1.jpg" alt="skotovaKlupa">
+            <img src="./slike/skotovaKlupa2.jpg" alt="skotovaKlupa">
+            <p>Sedite za klupu i približite telo naslonu. Stavite laktove i nadlaktice na naslon i poduhvatite teg sa obe ruke
+                sa palčevima ka spolja. Podižite teg savijajući laktove. Ispružite laktove i ponovite vežbu.
+            </p>
+        </div>
+        <div>
+            <h3>Dizanje dvoručnog tega iz stojećeg položaja</h3>
+            <img src="./slike/bicepsStojeci1.jpg" alt="bicepsStojeci">
+            <img src="./slike/bicepsStojeci2.jpg" alt="bicepsStojeci">
+            <p>Uhvatite šipku odozdo sa palčevima spolja u širini većoj od širine ramena. Noge u širini kukova. Leđa pravo.
+                Podižite teg savijajući laktove. Leđa ne pomerajte.</p>
+        </div>
+        <div>
+            <h3>Povlačenje sa kross mašine</h3>
+            <img src="./slike/bicepsNaKrosu.jpg" alt="bicepsKros">
+            <p>Ova vežba je istovetna prethodnoj ali se izvodi na kross mašini.</p>
+        </div>
+
+
+    </div>
+    <div id="divSaVezbamaZaTriceps" class="divSaVezbamaSkriven">
+            <div class="zatvoritiDivVezbi" onclick="zatvoritiDivVezbi('divSaVezbamaZaTriceps');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <h1> Vežbe za triceps </h1>
+        <div>
+            <h3>Dizanje dvoručnog tega iz ležećeg položaja</h3>
+            <img src="./slike/scullCrusher1.jpg" alt="tricepsLezeci">
+            <img src="./slike/scullCrusher2.jpg" alt="tricepsLezeci">
+            <p>Lezite na krupu i uzmite dvoručni teg iznad grudi kao da radite benč. Lagano savijajte ruke u laktovima dok šipka
+                ne dotakne čelo. Vratite ruke u početni položaj i ponovite vežbu. Ova vežba se na engleskom zove Scullcrusher
+                tako da budite oprezni i ne pokušavajte odmah da podignete velike težine.</p>
+        </div>
+        <div>
+            <h3>Dizanje bućice iz ležećeg položaja</h3>
+            <img src="./slike/lying-triceps-extension.jpg" alt="lying-triceps-extension">
+            <p>Vežba je skoro identična prethodnoj s tim što se koriste dve bućice i ruke su okrenute dlanovima jedna ka drugoj.
+                Tegovi se drže iznad grui u širini glave i pri spuštanju dolaze do slepoočnica.</p>
+        </div>
+        <div>
+            <h3>Povlačenje na cross mašini</h3>
+            <img src="./slike/tricepsPushdown1.jpg" alt="tricepsPushdown">
+            <img src="./slike/tricepsPushdown2.jpg" alt="tricepsPushdown">
+            <p>Postavite laktove pored tela i uhvatite šipku sa dlanovima na dole. Povlačite šipku nadole ispravljajuci ruke
+                u laktovima. Ne pomerajte laktove. Ako ne možete da uradite vežbu pravilno, smanjite težinu.</p>
+        </div>
+        <div>
+            <h3>Dizanje jednoručnog tega iz stojećeg položaja</h3>
+            <img src="./slike/tricepsStojeci1.jpg" alt="tricepsStojeci">
+            <img src="./slike/tricepsStojeci1.jpg" alt="tricepsStojeci">
+            <p>Uzmite teg sa obe ruke i podignite ga iznad glave. Leđa su pravo. Noge su u širini kukova. Savijajte ruke u laktovima
+                i polako spuštajte teg iza glave. Vratite ruke u početni položaj. Ponovite vežbu.</p>
+        </div>
+
+    </div>
+    <div id="divSaVezbamaZaLedja" class="divSaVezbamaSkriven">
+            <div class="zatvoritiDivVezbi" onclick="zatvoritiDivVezbi('divSaVezbamaZaLedja');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <h1>Vežbe za leđa</h1>
+        <div>
+            <h3>Povlačenje na lat mašini na grudi</h3>
+            <img src="./slike/latMasina1.jpg" alt="latMasina">
+            <img src="./slike/latMasina2.jpg" alt="latMasina">
+            <p>Uhvatite sipku za krajeve sa palčevima ka unutra i sedite tako da noge "zaglavite" na za to predviđenim mestima.
+                Povucite šipku na dole, ispred lica, dok ne dotakne grudi. Polako vratite šipku u početni položaj. Ponovite
+                vežbu.
+            </p>
+        </div>
+        <div>
+            <h3>Veslanje</h3>
+            <img src="./slike/veslanje1.jpg" alt="veslanje">
+            <img src="./slike/veslanje2.jpg" alt="veslanje">
+            <p>Za ovu vežbu možete koristiti nekoliko različitih nastavaka koji se montiraju na kabal. Poenta je ista. Uhvatite
+                šipku ispruženih ruku. Sedite tako da noge budu skoro ispravljene i oduprite se njima na predvidjenom mestu.
+                Povucite šipku ka sebi. Telo možete poviti ka nazad ali nemojte ustajati. Lagano vratite šipku nazad. Ponovite
+                vežbu.
+            </p>
+        </div>
+        <div>
+            <h3>Dizanje jednoručnog tega iz naklona</h3>
+            <img src="./slike/ledja1.jpg" alt="ledja">
+            <img src="./slike/ledja2.jpg" alt="ledja">
+            <p>Naslonite se jednom rukom i jednim kolenom na klupu. Ledja treba da su pravo, a ruka siguran oslonac. Celo telo
+                je povijeno u kukovima. Drugom rukom držite teg pored klupe u visini ramena. Povucite teg na gore ka ramenima.
+                Vratite teg na dole. Ponovite vežbu.</p>
+        </div>
+        <div>
+            <h3>Dizanje dvoručnog tega iz naklona</h3>
+            <img src="./slike/dvorucniTegLedja1.jpg" alt="dvorucniLedja">
+            <img src="./slike/dvorucniTegLedja2.jpg" alt="dvorucniLedja">
+            <p>Vežba je slična prethodnoj ali ne postoji oslonac osim nogu i radi se sa obe ruke. Telo savijeno u kukovima.
+                Ruke ispružene. Teg se podiže sa obe ruke ka ramenima. I kod ove i kod prethodne vežbe ne sme se preterivati
+                sa težinom.</p>
+        </div>
+        <div>
+            <h3>Dizanje tela iz ležeceg položaja unazad</h3>
+            <img src="./slike/superman1.jpg" alt="supermen">
+            <img src="./slike/superman2.jpg" alt="supermen">
+            <p>Lezite na stomak i ispružite ruke ispred sebe. Opcija je da stavite ruke iza glave. Podignite gornji deo tela
+                naviše. Spustite telo. Ponovite vežbu.</p>
+        </div>
+
+    </div>
+    <div id="divSaVezbamaZaRamena" class="divSaVezbamaSkriven">
+            <div class="zatvoritiDivVezbi" onclick="zatvoritiDivVezbi('divSaVezbamaZaRamena');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <h1>Vežbe za ramena</h1>
+        <div>
+            <h3>Letenje</h3>
+            <img src="./slike/letenje1.jpg" alt="letenje">
+            <img src="./slike/letenje2.jpg" alt="letenje">
+            <p>Stanite uspravno sa nogama u širini kukova. Držite bućice pored tela. Podignite bućice sa strane sa ispruženim
+                rukama do visine ramena. Spustite ruke. Ponovite vežbu. Kod ove vežbe je bitno saviti malo laktove, jer može
+                doći do povrede.</p>
+        </div>
+
+        <div>
+            <h3>Dizanje tega iz sedećeg položaja na gore</h3>
+            <img src="./slike/ramena1.jpg" alt="ramena">
+            <img src="./slike/ramena2.jpg" alt="ramena">
+            <p>Držite tegove u visini glave, sa savijenim laktovima i dlanovima ka napred. Podignite tegove iznad glave i ispružite
+                ruke. Vratite ruke u početni položaj. Ponovite vežbu.</p>
+
+        </div>
+        <div>
+            <h3>Potisak iz sedećeg položaja na gore</h3>
+            <img src="./slike/ramenaPotisak1.jpg" alt="ledjaPotisak">
+            <img src="./slike/ramenaPotisak2.jpg" alt="ledjaPotisak">
+            <p>Ista vežba kao i prethodna samo što se radi na specijalnoj mašini za to.</p>
+        </div>
+        <div>
+            <h3>Dizanje jednoručnih tegova ispred sebe</h3>
+            <img src="./slike/ramenaNapred1.jpg" alt="podizanjeteganapred">
+            <img src="./slike/ramenaNapred2.jpg" alt="podizanjeteganapred">
+            <p>Uzmite dva manja tega i držite ih ispred sebe sa ispruženim rukama. Podignite ih ispred sebe sa ispruženim rukama
+                do visine ramena. Vratite nazad. Ponovite vežbu.</p>
+        </div>
+
+    </div>
+    <div id="divSaVezbamaZaNoge" class="divSaVezbamaSkriven">
+            <div class="zatvoritiDivVezbi" onclick="zatvoritiDivVezbi('divSaVezbamaZaNoge');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <h1> Vežbe za noge </h1>
+        <div>
+            <h3>Čucanj</h3>
+            <img src="./slike/cucanj.jpg" alt="cucanj" width="450" height="315">
+            <p>Noge malo šire u odnosu na širinu kukova. Ruke ispred tela. Ledja pravo sve vreme. Celo stopalo je na zemlji sve vreme. Spustite se dole i podignite. Jednostavno je. Nije.</p>
+        </div>
+        <div>
+            <h3>Potisak napred</h3>
+            <img src="./slike/legExtension.jpg" alt="legextension">
+            <p>Za ovu vežbu je potrebna odgovarajuća sprava koja postoji u većini teretana. Početni položaj je sedeći sa savijenim kolenima. Ispravljajte noge u kolenima dok ne dodjete do maksimuma. Savijte lagano kolena. Ponovite vežbu. </p>
+        </div>
+        <div>
+            <h3>Potisak nogama</h3>
+            <img src="./slike/legPres.jpg" alt="legPress">
+            <p>I za ovu vežbu je potrebna odgovarajuća mašina ali je ima u svim teretanama. 
+                Sedite i naslonite se leđima. Gurate nogama na gore. Skupite ponovo noge. Ponovite.</p>
+        </div>
+        <div>
+            <h3>Iskorak</h3>
+            <img src="./slike/iskorak.jpg" alt="iskorak" >
+            <p>Ovu vežbu možete raditi sa ili bez tegova. Iskoračite jednom nogom napred.
+                 Zadnju nogu savijte slobodno. Najčešća greška je da je prednje koleno ispred stopala ili iza stopala. 
+                 Koleno na prednjojj nozi je iznad stopala.</p>
+
+        </div>
+        <div>
+            <h3>Potisak nazad</h3>
+            <img src="./slike/legCurl.jpg" alt="legCurl">
+            <p>Sedite na predviđenu mašinu i ispravite leđa. U početnom položaju noge su ispružene.
+                 Savijajte kolena do kraja. Ledja su prava i naslonjena na naslon. Vratite noge u početni položaj. Ponovite vežbu.</p>
+        </div>
+        <div>
+            <h3>Listovi</h3>
+            <img src="./slike/listovi.jpg" alt="listovi" width="450" height="315">
+            <p>Vežbu možete raditi sa i bez tegova. Noge u širini kukova. Podižete se na prste i spuštate. </p>
+        </div>
+
+    </div>
+    <div id="powered">Powered by Tadija</div>
+    <script src="spisakVezbi.js"></script>
+</body>
+
+</html>

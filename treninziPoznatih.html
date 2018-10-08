@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GYM GUIDE</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+
+<body style=" background:url('./slike/pozaadina-4.jpg');background-size: cover;background-repeat: no-repeat;">
+   
+    <a href="pocetna.html"><img src="./slike/logo.png" alt="logo" id="logo"></a>
+    <nav class="navNeulogovan">
+        <a class="tablinkNeulogovan" href="pocetna.html">Početna</a>
+        <a class="tablinkNeulogovan" href="preporuceniProgram.html">Preporučeni program</a>
+        <a class="tablinkNeulogovan" href="razlicitiProgrami.html">Vežbe zagrevanja</a>
+        <a class="tablinkNeulogovan" href="programiPoGrupama.html">Programi za grupe mišica</a>
+        <a class="tablinkNeulogovan" href="?" style=" border-bottom: solid rgb(181,211,52) 1px;">Treninzi poznatih</a>
+        <a class="tablinkNeulogovan" href="spisakVezbi.html">Spisak vežbi</a>
+        <a class="tablinkNeulogovan" href="procenatMasti.html">Procenat masti</a>
+        <a class="tablinkNeulogovan" href="preporuceniUnosKalorija.html">Preporučeni unos kalorija</a>
+        <a class="tablinkNeulogovan" href="kardio.html">Kardio trening</a>
+    </nav>
+    <a class="tabZaLogovanje" href="gymguide.html">Uloguj se</a>
+    <div id="divoviPoznatih">
+        <div class="levo">
+            <div class="divPoznatog" style=" background:url('./slike/arnoldNekadBiceps.jpg');background-size: cover;background-repeat: no-repeat;"
+                onclick="prikaziDivTabelu('svarceneger1','./slike/arnoldNekadBiceps.jpg');">
+                <h2>Arnold Švarceneger</h2>
+
+            </div>
+            <div class="divPoznatog" style=" background:url('./slike/koleman.jpg');background-size: cover;background-repeat: no-repeat;" onclick="prikaziDivTabelu('roniKoleman','./slike/koleman.jpg');">
+                <h2>Roni Koleman</h2>
+            </div>
+            <div class="divPoznatog" style=" background:url('./slike/wiler.jpg');background-size: cover;background-repeat: no-repeat;" onclick="prikaziDivTabelu('fleksviler','./slike/wiler.jpg');">
+                <h2>Fleks Viler</h2>
+
+            </div>
+        </div>
+        <div class="centar">
+            <div class="divPoznatog" style=" background:url('./slike/angelov.jpg');background-size: cover;background-repeat: no-repeat;" onclick="prikaziDivTabelu('angelov','./slike/angelov.jpg');">
+                <h2>Lazar Angelov</h2>
+
+            </div>
+            <div class="divPoznatog" style=" background:url('./slike/dwayne.jpg');background-size: cover;background-repeat: no-repeat;" onclick="prikaziDivTabelu('rock','./slike/dwayne.jpg');">
+                <h2>The Rock</h2>
+                <p>Dwayne Johnson’s “Dr. Bravestone” Jumanji Workouts</p>
+
+            </div>
+        </div>
+        <div class="desno">
+            <div class="divPoznatog" style=" background:url('./slike/lisa.jpg');background-size: cover;background-repeat: no-repeat;" onclick="prikaziDivTabelu('lisa','./slike/lisa.jpg');">
+                <h2>Lisa Marie Varon</h2>
+                
+            </div>
+            <div class="divPoznatog" style=" background:url('./slike/arnoldMlad.jpg');background-size: cover;background-repeat: no-repeat;" onclick="prikaziDivTabelu('svarceneger2','./slike/arnoldMlad.jpg');">
+                <h2>Arnold Švarceneger</h2>
+                <p>Arnold Schwarzenegger Volume Workout Routine</p>
+
+            </div>
+            <div class="divPoznatog" style=" background:url('./slike/f0qo2yucn9u01.jpg');background-size: cover;background-repeat: no-repeat;"
+                onclick="prikaziDivTabelu('elferman','./slike/f0qo2yucn9u01.jpg');">
+                <h2>Džordž Elferman</h2>
+
+            </div>
+        </div>
+
+    </div>
+    <div  class="tabelaTreningPoznatog" id="lisa">
+            <div class="zatvoritiTabeluPoznatog" onclick="zatvoriTabeluPoznatog('lisa');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+            <p>Prvi dan</p>
+            <ul>
+                <li> Machine Bench Press (3 sets of 12-15 reps)</li>
+                <li>Incline Dumbbell Press (3 sets of 12-15 reps)</li>
+                <li> Cable Crossover (3 sets of 12-15 reps)</li>
+                <li>Standing Military Press (3 sets of 8-12 reps)</li>
+                <li> Side Lateral Raise (3 sets of 8-12 reps)</li>
+                <li> Triceps Pushdown – Rope Attachment (3 sets of 8-12 reps)</li>
+                <li>Triceps Overhead Extension with Rope (3 sets of 8-12 reps)</li>
+                <li> Dips – Triceps Version (1 set to failure)</li>
+                <li> Abs (3 sets of 20-25 reps)</li>
+                <li> Cardio (45 min)</li>
+            </ul>
+            <p>Drugi dan</p>
+            <ul>
+                <li> Seated Leg Curl (3 sets of 20-25 reps)</li>
+                <li>Leg Extensions (3 sets of 20-25 reps)</li>
+                <li>Barbell Squat (3 sets of 15-20 reps)</li>
+                <li>Dumbbell Squat (3 sets of 25-30 reps)</li>
+                <li>Stiff-Legged Barbell Deadlift (3 sets of 20-25 reps)</li>
+                <li>Hyperextensions (Back Extensions) (3 sets of 12 reps)</li>
+                <li>Abs (3 sets of 20-25 reps)</li>
+                <li>Cardio (45 min)</li>
+            </ul>
+            <p>Treci dan</p>
+            <ul>
+                <li>Wide-Grip Lat Pulldown (3 sets of 12-15 reps)</li>
+                <li> Seated Cable Rows (3 sets of 12-15 reps)</li>
+                <li> Straight-Arm Dumbbell Pullover (3 sets of 12-15 reps)</li>
+                <li> Reverse Flyes (3 sets of 12-15 reps)</li>
+                <li> Dumbbell Alternate Bicep Curl (3 sets of 8-12 reps)</li>
+                <li> Hammer Curls (3 sets of 8-12 reps)</li>
+                <li>Standing Biceps CableCurl (with Cambered Bar) (3 sets of 8-12 reps)</li>
+                <li> Abs (3 sets of 20-25 reps)</li>
+                <li> Cardio (45 min)</li>
+            </ul>
+        </div>
+    <div class="tabelaTreningPoznatog" id="rock">
+            <div class="zatvoritiTabeluPoznatog" onclick="zatvoriTabeluPoznatog('rock');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <p>Prvi set vezbi:</p>
+        <ul>
+            <li>1-Arm Lat Pulldown 3 sets x 15 reps</li>
+            <li>Reverse-Grip Cable Pulldown 5 sets x 12 reps</li>
+            <li>One-Arm Dumbbell Row 3 sets x 12 reps</li>
+            <li> “Charles Glass-Style” Hammer High Row 4 sets x 12 reps</li>
+            <li> Superset: 4 sets x 12 reps
+                <ol>
+                    <li> Wide-Grip Cable Rows (Use pulldown bar)</li>
+                    <li> Rope pullovers</li>
+                </ol>
+            </li>
+            <li> Back (Hyper)extensions w/ Hands Behind Head: 3 sets x 15 reps</li>
+            <li> Dumbbell Shrugs 4 sets x 20 reps</li>
+        </ul>
+        <hr>
+        <p>Drugi set vezbi:</p>
+        <ul>
+            <li>Standing Cable Flye 7 sets x 15 reps</li>
+            <li> Incline Flye 4 sets x 12 reps</li>
+            <li> One-Arm Incline Press (alternating from full extension) 3 sets x 10 reps
+            </li>
+            <li> Flat Dumbbell Press (palms facing each other) 3 sets x 12 reps</li>
+            <li>Chest Superset: 4 sets
+                <ol>
+                    <li> Flat Dumbbell Flye (12 reps)</li>
+                    <li> Pushups to failure</li>
+                </ol>
+            </li>
+        </ul>
+        <hr>
+        <p>Treci set vezbi:</p>
+        <ul>
+            <li>Barbell Glute Bridge 4 sets x 12 reps (hold last rep for 10 seconds)</li>
+            <li> Single-Leg Leg Extension 3 sets x 20 reps</li>
+            <li> Leg Press 4 sets x 25 reps</li>
+            <li> Walking Lunges 3 sets x 24 reps</li>
+            <li>Vertical Leg Press3 sets x 20 reps</li>
+            <li> Single-Leg Lying Leg Curls 4 sets x 15 reps</li>
+            <li> Glute-Ham Raises 4 sets x 8–12 reps</li>
+        </ul>
+    </div>
+    <div class="tabelaTreningPoznatog" id="angelov">
+            <div class="zatvoritiTabeluPoznatog" onclick="zatvoriTabeluPoznatog('angelov');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <table>
+            <table>
+                <tr>
+                    <th colspan="4">Dan 1.-grudi i stomak</th>
+                </tr>
+                <tr>
+                    <th>broj</th>
+                    <th>Vežba</th>
+                    <th>Serije</th>
+                    <th>Ponavljanja</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Flat Bench Chest Press</td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Dumbbell Incline Bench Press</td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Decline Dumbbell Press</td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Weighted Pull Overs </td>
+                    <td>3</td>
+                    <td>10-12</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Hammer Grip Bench Press </td>
+                    <td>3</td>
+                    <td>10-12</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Weighted Sit Upss </td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td> Hanging Straight Leg Raises </td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td> Side Bends</td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td> Side Crunches </td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <th colspan="4">Dan 2.-ledja, trapezoidi i podlaktica</th>
+                </tr>
+                <tr>
+                    <th>broj</th>
+                    <th>Vežba</th>
+                    <th>Serije</th>
+                    <th>Ponavljanja</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td> Bent Over Row </td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td> Deadlifts </td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td> Lat Pulldowns </td>
+                    <td>4</td>
+                    <td>10-12</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td> Pull Ups </td>
+                    <td>4</td>
+                    <td>10-12</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td> Shrugs </td>
+                    <td>4</td>
+                    <td>10-12</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td> Standing Palms Up Behind Back </td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td> Reverse Palms Up Over Bench </td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <th colspan="4">Dan 3.-ramena i stomak</th>
+                </tr>
+                <tr>
+                    <th>broj</th>
+                    <th>Vežba</th>
+                    <th>Serije</th>
+                    <th>Ponavljanja</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Military Press</td>
+                    <td>3</td>
+                    <td>8-10</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Machine Shoulder Press </td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Dumbbell Lateral Raises </td>
+                    <td>4</td>
+                    <td>10-12</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Front Plate Raise</td>
+                    <td>4</td>
+                    <td>10-12</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Reverse Pec Deck</td>
+                    <td>4</td>
+                    <td>10-12</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Incline Reverse Flyes </td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td> Weighted Sit Ups</td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td> Hanging Straight Leg Raises </td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Side Bends</td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Side Crunches</td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <th colspan="4">Dan 4.-ruke</th>
+                </tr>
+                <tr>
+                    <th>broj</th>
+                    <th>Vežba</th>
+                    <th>Serije</th>
+                    <th>Ponavljanja</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Close-Grip Bench Press</td>
+                    <td>3</td>
+                    <td>8-10</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Triceps Pushdowns </td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Cable Kickbacks </td>
+                    <td>4</td>
+                    <td>12-15</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>EZ Curls</td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Standing Wide-Grip Barbell Curls</td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Dumbbell Hammer Curls </td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td> Dumbbell Concentration Curls </td>
+                    <td>4</td>
+                    <td>12-15</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td> Standing Palms Up Behind Back </td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Reverse Palms Up Over Bench</td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <th colspan="4">Dan 5.-noge i abdomen</th>
+                </tr>
+                <tr>
+                    <th>broj</th>
+                    <th>Vežba</th>
+                    <th>Serije</th>
+                    <th>Ponavljanja</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Squats</td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Bench Squats </td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bulgarian Split Squats </td>
+                    <td>4</td>
+                    <td>12-15</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Leg Extensions</td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Stiff-Legged Deadlift </td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Lying Leg Curls </td>
+                    <td>4</td>
+                    <td>8-10</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Glutes Kickbacks </td>
+                    <td>4</td>
+                    <td>12-15</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Seated Calf Raises</td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Leg Press Calf Raises </td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Weighted Sit Ups</td>
+                    <td>4</td>
+                    <td>12-15</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td> Side Bends </td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Barbell Twists </td>
+                    <td>4</td>
+                    <td>till failure</td>
+                </tr>
+            </table>
+    </div>
+    <div class="tabelaTreningPoznatog" id="roniKoleman">
+            <div class="zatvoritiTabeluPoznatog" onclick="zatvoriTabeluPoznatog('roniKoleman');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <table>
+            <tr>
+                <th colspan="4">Ponedeljak-noge</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Barbell Squat</td>
+                <td>5</td>
+                <td>10-15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    Barbell Hack Squat</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    Leg Extensions</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    Standing Leg Curl</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Lying Leg Curls</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Seated Leg Curl</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>
+                    Seated Leg Curl</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Seated Calf Raise</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <th colspan="4">Utorak-ledja i triceps</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bent Over Barbell Row</td>
+                <td>5</td>
+                <td>10-15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lying T-Bar Row</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>One-Arm Dumbbell Row</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    Wide-Grip Lat Pulldown</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>
+                    Dip Machine</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>
+                    Standing Dumbbell Triceps Extension</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>
+                    Lying Triceps Press</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Seated Calf Raise</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <th colspan="4">Sreda-ramena</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Smith Machine Overhead Shoulder Press</td>
+                <td>3</td>
+                <td>10-15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    Side Lateral Raise</td>
+                <td>3</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    Front Dumbbell Raise</td>
+                <td>3</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    Seated Bent-Over Rear Delt Raise</td>
+                <td>3</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <th colspan="4">Cetvrtak-grudi i biceps</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    Barbell Bench Press - Medium Grip</td>
+                <td>53/td>
+                    <td>10-15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    Barbell Incline Bench Press Medium-Grip</td>
+                <td>3</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Decline Barbell Bench Press</td>
+                <td>3</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+
+                    Barbell Curl</td>
+                <td>3</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>
+
+                    One Arm Dumbbell Preacher Curle</td>
+                <td>3</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>
+                    Alternate Hammer Curl</td>
+                <td>3</td>
+                <td>15-20</td>
+            </tr>
+
+            <tr>
+                <th colspan="4">Petak-noge</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Barbell Squat</td>
+                <td>5</td>
+                <td>10-15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    Barbell Hack Squat</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    Leg Extensions</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    Standing Leg Curl</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Lying Leg Curls</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Seated Leg Curl</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>
+                    Seated Leg Curl</td>
+                <td>5</td>
+                <td>15-20</td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="tabelaTreningPoznatog" id="fleksviler">
+            <div class="zatvoritiTabeluPoznatog" onclick="zatvoriTabeluPoznatog('fleksviler');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <table>
+            <tr>
+                <th colspan="4">Vebe za ruke</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Barbell Curls</td>
+                <td>5</td>
+                <td>9-10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dumbbell Preachers</td>
+                <td>5</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Concentration Curls</td>
+                <td>3</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pushdowns</td>
+                <td>5</td>
+                <td>8-10</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rope Extensions </td>
+                <td>5</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td> Skull Crushers</td>
+                <td>3</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <th colspan="4">Vebe za ramena</th>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td> Lying Rear Laterals </td>
+                <td>4</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td> Standing Shoulder Press </td>
+                <td>4</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td> Barbell Front Raises </td>
+                <td>3</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Wide Grip Upright Rows </td>
+                <td>3</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Seated Lateral Raises </td>
+                <td>4</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <th colspan="4">Vebe za leđa</th>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Back Extensions </td>
+                <td>4</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Chin Ups </td>
+                <td>4</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Seated Cable Rows </td>
+                <td>4</td>
+                <td>10-12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>One Arm Dumbbell Rows </td>
+                <td>4</td>
+                <td>10-12</td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="tabelaTreningPoznatog" id="svarceneger2">
+            <div class="zatvoritiTabeluPoznatog" onclick="zatvoriTabeluPoznatog('svarceneger2');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <table>
+            <tr>
+                <th colspan="4">Dani 1 i 4</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bench Press</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Incline Bench Press</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Dumbbell Pullovers</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Chin Up</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Bent Over Row</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Deadlift</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Crunches</td>
+                <td>5</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <th colspan="4">Dani 2 i 5</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Barbell Clean and Press</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dumbbell Lateral Raise</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Upright Row</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Military Press</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Standing Barbell Curl</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Seated Dumbbell Curl</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Close Grip Bench Press</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Standing Barbell Tricep Extension</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Wrist Curls</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Reverse Wrist Curls</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Reverse Crunch</td>
+                <td>5</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <th colspan="4">Dani 3 i 6</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Squat</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lunge</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Leg Curl</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Stiff Leg Deadlift</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Good Mornings</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Standing Calf Raise</td>
+                <td>3-4</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Crunches</td>
+                <td>5</td>
+                <td>25</td>
+            </tr>
+        </table>
+    </div>
+    <div class="tabelaTreningPoznatog" id="elferman">
+            <div class="zatvoritiTabeluPoznatog" onclick="zatvoriTabeluPoznatog('elferman');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <table>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Hack Squat</td>
+                <td>3</td>
+                <td>7-10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bench Press</td>
+                <td>3</td>
+                <td>7-10</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Dumbbell Fly</td>
+                <td>3</td>
+                <td>7-10</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Dumbbell Lateral Raise</td>
+                <td>3</td>
+                <td>7-10</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Alternate Dumbbell Press</td>
+                <td>3</td>
+                <td>7-10</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Cheating One-Arm Row</td>
+                <td>3</td>
+                <td>7-10</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Cheating Barbell Curl</td>
+                <td>3</td>
+                <td>7-10</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Dumbbell Concentration Curl</td>
+                <td>3</td>
+                <td>7-10</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Dumbbell Wrist Curl</td>
+                <td>3</td>
+                <td>7-10</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Side Bend</td>
+                <td>3</td>
+                <td>7-10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Sit Up</td>
+                <td>3</td>
+                <td>8-12</td>
+            </tr>
+        </table>
+    </div>
+    <div class="tabelaTreningPoznatog" id="svarceneger1">
+            <div class="zatvoritiTabeluPoznatog" onclick="zatvoriTabeluPoznatog('svarceneger1');"><img src="./slike/xClose.jpg" alt="close" height="20" width="20"></div>
+        <table>
+            <tr>
+                <th colspan="4">Dan 1</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>BARBELL BENCH PRESS - MEDIUM GRIP</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>BARBELL INCLINE BENCH PRESS MEDIUM-GRIP</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>DUMBBELL FLYES</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>DUMBBELL PULL-OVER</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>CHIN-UP (WIDE-GRIP)</td>
+                <td>4</td>
+                <td>to fallure</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>BENT OVER BARBELL ROW</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>BENT OVER TWO-DUMBBELL ROW</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>HANGING LEG RAISE</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <th colspan="4">Dan 2</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>CLEAN AND PRESS</td>
+                <td>5</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>STANDING DUMBBELL PRESS</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>FRONT DUMBBELL RAISE</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>SIDE LATERAL RAISE</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>UPRIGHT BARBELL ROW</td>
+                <td>4</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>BARBELL CURL</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>INCLINE DUMBBELL CURL</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>CONCENTRATION CURLS</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>CLOSE-GRIP BARBELL BENCH PRESS</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>LYING TRICEPS PRESS</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>DUMBBELL ONE-ARM TRICEPS EXTENSION</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>PALMS-UP BARBELL WRIST CURL OVER A BENCH</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>PALMS-DOWN WRIST CURL OVER A BENCH</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>DECLINE CRUNCH</td>
+                <td>3</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <th colspan="4">Dan 3</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>BARBELL SQUAT</td>
+                <td>5</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>STIFF-LEGGED BARBELL DEADLIFT</td>
+                <td>5</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GOOD MORNING</td>
+                <td>5</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>BARBELL LUNGE</td>
+                <td>5</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>LEG EXTENSIONS</td>
+                <td>4</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>SEATED LEG CURL</td>
+                <td>3</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>STANDING CALF RAISESL</td>
+                <td>3</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>SEATED CALF RAISE</td>
+                <td>3</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>CABLE CRUNCH</td>
+                <td>3</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <th colspan="4">Dan 4</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>BARBELL BENCH PRESS - MEDIUM GRIP</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>BARBELL INCLINE BENCH PRESS MEDIUM-GRIP</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>DUMBBELL FLYES</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>DUMBBELL PULL-OVER</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>CHIN-UP </td>
+                <td>4</td>
+                <td>to fallure</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>BENT OVER BARBELL ROW</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>BENT OVER TWO-DUMBBELL ROW</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>HANGING LEG RAISE</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <th colspan="4">Dan 5</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ARNOLD DUMBBELL PRESS</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PUSH PRESS</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>FRONT DUMBBELL RAISE</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>REVERSE FLYES</td>
+                <td>5</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>UPRIGHT BARBELL ROW</td>
+                <td>4</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>BARBELL CURL</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>INCLINE DUMBBELL CURL</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>CONCENTRATION CURLS</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>CLOSE-GRIP BARBELL BENCH PRESS</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>TRICEPS PUSHDOWN</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>DUMBBELL ONE-ARM TRICEPS EXTENSION</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>PALMS-UP BARBELL WRIST CURL OVER A BENCH</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>PALMS-DOWN WRIST CURL OVER A BENCH</td>
+                <td>3</td>
+                <td>30-12-10-8-6</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>DECLINE CRUNCH</td>
+                <td>3</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <th colspan="4">Dan 6</th>
+            </tr>
+            <tr>
+                <th>broj</th>
+                <th>Vežba</th>
+                <th>Serije</th>
+                <th>Ponavljanja</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>FRONT BARBELL SQUAT</td>
+                <td>5</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>BARBELL DEADLIFT (OPTION 1)</td>
+                <td>3</td>
+                <td>12-10-8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>BARBELL DEADLIFT (OPTION 2)</td>
+                <td>3</td>
+                <td>12-10-8</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>BARBELL DEADLIFT (OPTION 3)</td>
+                <td></td>
+                <td>12-10-8</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>GOOD MORNING</td>
+                <td>5</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>BARBELL LUNGE</td>
+                <td>5</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>LEG EXTENSIONS</td>
+                <td>5</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>SEATED LEG CURL</td>
+                <td>5</td>
+                <td>8-12</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>CABLE CRUNCH</td>
+                <td>5</td>
+                <td>8-12</td>
+            </tr>
+        </table>
+    </div>
+    <div id="powered">Powered by Tadija</div>
+    <script src="treninziPoznatih.js"></script>
+</body>
+
+</html>

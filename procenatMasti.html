@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GYM GUIDE</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+
+<body style=" background:url('./slike/pozadina-1.jpg');">
+    <a href="pocetna.html">
+        <img src="./slike/logo.png" alt="logo" id="logo">
+    </a>
+    <nav class="navNeulogovan">
+        <a class="tablinkNeulogovan" href="pocetna.html">Početna</a>
+        <a class="tablinkNeulogovan" href="preporuceniProgram.html">Preporučeni program</a>
+        <a class="tablinkNeulogovan" href="razlicitiProgrami.html">Vežbe zagrevanja</a>
+        <a class="tablinkNeulogovan" href="programiPoGrupama.html">Programi za grupe mišica</a>
+        <a class="tablinkNeulogovan" href="treninziPoznatih.html">Treninzi poznatih</a>
+        <a class="tablinkNeulogovan" href="spisakVezbi.html">Spisak vežbi</a>
+        <a class="tablinkNeulogovan" href="?" style=" border-bottom: solid rgb(181,211,52) 1px;">Procenat masti</a>
+        <a class="tablinkNeulogovan" href="preporuceniUnosKalorija.html">Preporučeni unos kalorija</a>
+        <a class="tablinkNeulogovan" href="kardio.html">Kardio trening</a>
+    </nav>
+    <a class="tabZaLogovanje" href="gymguide.html">Uloguj se</a>
+    <div id="sadrzajProcentaMasti">
+        <div id="infoOProcentuMasti">
+            <p>Zdrav muškarac ima procenat masti između 8 i 17 procenata.</p>
+            <p>Zdrava žena ima između 15 i 24 procenata.</p>
+            <p>Unesite težinu i visinu i saznajte vaš procenat masti.</p>
+        </div>
+        <form action="?" id="formaProcentaMasti" method="post">
+            <fieldset id="formaObracunaMaseLevo">
+                <div id="divTezina">
+                    <label for="tezina"> Unesite težinu:</label>
+                    <input type="text" name="tezina" id="tezina" required>
+                    <br>
+                </div>
+                <hr>
+                <div id="divVisina">
+                    <label for="visina">Unesite visinu u cm: </label>
+                    <input type="text" name="visina" id="visina" required>
+                </div>
+            </fieldset>
+
+            <fieldset id="formaObracunaMaseDesno">
+                <div id="divGodine">
+                    <label for="godine"> Unesite godine: </label>
+                    <input type="text" name="godine" id="godine" required>
+                    <br>
+                </div> <hr>
+                <div id="divPol">
+                    <p>Odaberite pol:</p>
+                    <div id="poloviDiv">
+                    <label for="muski">Muški</label>
+                    <input type="radio" name="gender" value="muski" checked>
+                    <br>
+                    <label for="zenski">Ženski</label>
+                    <input type="radio" name="gender" value="zenski">
+                </div>
+                </div>
+            </fieldset>
+
+
+
+            <input type="submit" value="Izracunaj">
+
+        </form>
+        <p id="BMI"></p>
+        <p id="procenatMasti"></p>
+    </div>
+
+    <div id="powered">Powered by Tadija</div>
+
+    <script src="procenatMasti.js"></script>
+</body>
+
+</html>

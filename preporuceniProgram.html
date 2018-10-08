@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GYM GUIDE</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+
+<body style=" background:url('./slike/pozadina.jpg');">
+        <a href="pocetna.html"><img src="./slike/logo.png" alt="logo" id="logo"></a>
+    <nav class="navNeulogovan">
+            <a class="tablinkNeulogovan" href="pocetna.html">Početna</a>
+            <a class="tablinkNeulogovan" href="?" style=" border-bottom: solid rgb(181,211,52) 1px;">Preporučeni program</a>
+            <a class="tablinkNeulogovan" href="razlicitiProgrami.html">Vežbe zagrevanja</a>
+            <a class="tablinkNeulogovan" href="programiPoGrupama.html">Programi za grupe mišica</a>
+            <a class="tablinkNeulogovan" href="treninziPoznatih.html">Treninzi poznatih</a>
+            <a class="tablinkNeulogovan" href="spisakVezbi.html">Spisak vežbi</a>
+            <a class="tablinkNeulogovan" href="procenatMasti.html">Procenat masti</a>
+            <a class="tablinkNeulogovan" href="preporuceniUnosKalorija.html">Preporučeni unos kalorija</a>
+            <a class="tablinkNeulogovan" href="kardio.html">Kardio trening</a>
+        </nav>
+        <a class="tabZaLogovanje" href="gymguide.html">Uloguj se</a>
+    
+<form action="?" id="formaPreporucenogTreninga">
+    <p>Preporučujemo određeni program u zavisnosti od propozicija tela i vaših želja</p>
+    <label for="odabirBrojaTreningaNedeljno">Izaberi broj treninga nedeljno</label>
+
+<select name="odabirBrojaTreningaNedeljno" id="odabirBrojaTreningaNedeljno" onchange="nadjiIzabranuVrednost()">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+</select>
+
+<label for="modelTreninga">Izaberite modul treninga</label>
+<select name="modelTreninga" id="modelTreninga" onchange="izborModulaTreninga()">
+    <option value="snaga">Snaga</option>
+    <option value="masa">Masa</option>
+    <option value="definicija">Definicij</option>
+</select>
+
+<input type="submit" value="Izračunaj program">
+</form>
+<div id="tabelaSaPrepProgramom"></div>
+    <div id="powered">Powered by Tadija</div>
+    <script src="preporuceniProgram.js"></script>
+</body>
+
+</html>

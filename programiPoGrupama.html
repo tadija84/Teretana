@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GYM GUIDE</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+
+<body style=" background:url('./slike/pozadina-3.jpg');">
+        <a href="pocetna.html"><img src="./slike/logo.png" alt="logo" id="logo"></a>
+    <nav class="navNeulogovan">
+        <a class="tablinkNeulogovan" href="pocetna.html">Početna</a>
+        <a class="tablinkNeulogovan" href="preporuceniProgram.html">Preporučeni program</a>
+        <a class="tablinkNeulogovan" href="razlicitiProgrami.html">Vežbe zagrevanja</a>
+        <a class="tablinkNeulogovan" href="?" style=" border-bottom: solid rgb(181,211,52) 1px;">Programi za grupe mišica</a>
+        <a class="tablinkNeulogovan" href="treninziPoznatih.html">Treninzi poznatih</a>
+        <a class="tablinkNeulogovan" href="spisakVezbi.html">Spisak vežbi</a>
+        <a class="tablinkNeulogovan" href="procenatMasti.html">Procenat masti</a>
+        <a class="tablinkNeulogovan" href="preporuceniUnosKalorija.html">Preporučeni unos kalorija</a>
+        <a class="tablinkNeulogovan" href="kardio.html">Kardio trening</a>
+    </nav>
+    <a class="tabZaLogovanje" href="gymguide.html">Uloguj se</a>
+    <div id="divZaGrupu">
+    <p>Izaberite grupu misica</p>
+    <select name="grupe" id="grupe" onchange="nadjiIzabranuVrednost()">
+        <option value="grudi">Vežbe za grudi</option>
+        <option value="biceps">Vežbe za biceps</option>
+        <option value="triceps">Vežbe za triceps</option>
+        <option value="ledja">Vežbe za leđa</option>
+        <option value="ramena">Vežbe za ramena</option>
+        <option value="noge1">Vežbe za noge 1</option>
+        <option value="noge2">Vežbe za noge 2</option>
+    </select>
+    <button id="prikaz"> Prikaži</button>
+    <br>
+    <div id="zaIspis"></div>
+    <div id="powered">Powered by Tadija</div></div>
+    <script src="programiPoGrupama.js"></script>
+</body>
+
+</html>
