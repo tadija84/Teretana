@@ -16,7 +16,7 @@ function dodajKorisnika(event) {
     var confirmpass = document.getElementById("confirmpass").value;
     var secquestion = document.getElementById("question").value;
     var answer = document.getElementById("answer").value;
-    var selektovan = document.getElementById("question");
+    //var selektovan = document.getElementById("question");
     var vreme = vremeNaPocetkuNedelje();
     var odradjeniTreninzi = [];
     var podaciOKorisniku = {

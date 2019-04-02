@@ -8,10 +8,8 @@ body{
     background-image: url("./slike/pozadina-1.jpg");
     background-size: cover;                     
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    background-position: center top;
-      
+    background-attachment: fixed;  
+    background-position: center top;     
 }
 #logo{
     position: relative;
@@ -28,12 +26,13 @@ body{
     bottom: 10px;
     position: fixed;
     font-size: 10pt;
+    z-index: -1;
 }
 #navNaPocetnoj, .navNeulogovan{
     position: relative;
     float: left;
     top: 150px;
-  display: inline-block;
+    display: inline-block;
     border-right: solid #b5ea00 1px;
     width: 15%;
     margin-right: 2%;
@@ -79,7 +78,7 @@ body{
 }
  #divoviPoznatih{
     position: relative;
-  top: 80px;
+    top: 80px;
 }
 .levo,.centar,.desno{
     position: relative;
@@ -87,17 +86,14 @@ body{
     width:27%;
     height: 500px;
 }
-/*.desno{
-    width:29%;
-}*/
 #divoviNaPocetnoj{
     position: relative;
-float: left;
-height: 180px;
-display: block;
- margin: 1%;
-margin-left: 20%;
-top: 140px;
+    float: left;
+    height: 180px;
+    display: block;
+    margin: 1%;
+    margin-left: 20%;
+    top: 140px;
 }
 
 .divNaPocetnoj, .divPoznatog{
@@ -108,10 +104,9 @@ top: 140px;
     height: 180px;
     display: block
 }
- .desno div,.levo div{
+.desno div,.levo div{
     height: 30%;
 }
-
 .centar div{
     position: relative;
     height: 47%;
@@ -154,30 +149,27 @@ top: 140px;
     top: 150px;
     background-color: rgba(0, 0, 0,0.7);
 }
-#tabelaNaDan{
-    
- align-content: center;
-  margin-top: 40px;
+#tabelaNaDan{  
+    align-content: center;
+    margin-top: 40px;
     width: 80%;
-   margin-left: 10%
+    margin-left: 10%
 }
 #izmeniProfil{
     position: relative;
     width: 50%;
-    left: 25%;
-    
+    left: 25%;   
     margin-top: 8%;
     align-content: center;
 }
 
 table, thead, td{
     border: 0;
- font-family: Arial;
- font-style: italic;
- font-size: 11pt;
- background-color: rgba(0, 0, 0,0.7);
- outline-width: 3px;
- 
+    font-family: Arial;
+    font-style: italic;
+    font-size: 11pt;
+    background-color: rgba(0, 0, 0,0.7);
+    outline-width: 3px;
 }
 table{
     width:100%;
@@ -196,12 +188,11 @@ tr :first-child{
 .strelice{
     clear: both;
     width: 100%;
-    background-color: black;
-    
+    background-color: black;  
     color: white;
 }
 .tabSaStrelicom{
-   width:20%;
+    width:20%;
 }
 
 #tabelaNaDan:hover,#tabelaZaSedmicu:hover, #home:hover{
@@ -219,11 +210,11 @@ tr :first-child{
 #tabelaZaSedmicu{
     position: relative;
     align-content: center;
-float: left;
-margin-top: 50px;
-margin-bottom: 50px;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 80%;
-   left: 10%
+    left: 10%
 }
 
 nav{clear: both;
@@ -234,12 +225,12 @@ nav{clear: both;
     font-size: 11pt;
     position: fixed;
     padding-left: 180px;
-    
     display: inline;
+    z-index: 10;
 }
 .tablink {
-  text-decoration: none;
-   background-color: rgba(85,85,85, 0);
+    text-decoration: none;
+    background-color: rgba(85,85,85, 0);
     color:white;
     float: left;
     border: solid black 1px;
@@ -248,9 +239,9 @@ nav{clear: both;
     padding: 1px 10px;
     font-size: 15px;
     margin-right: 1px;
-   font-family: Arial;
-   font-style: italic;
-   display: inline;
+    font-family: Arial;
+    font-style: italic;
+    display: inline;
     height: 40px;
     white-space: nowrap;
 }
@@ -266,21 +257,15 @@ body{
     width: 100%;
 }
 #izmeniProfil img{
-   position: relative;
-   width: 100%;
+    position: relative;
+    width: 100%;
 }
 #sadrzajPromenePodataka{
     position: relative;
     z-index: 2;
     bottom: 700px;  
 }
-/*#izmeniProfil{
-   background-image: url( 04-izmena-profila.jpg);
-background-size: cover;
-background-pozition: center top;
-background-repeat: no-repeat;
-min-height: 800px;
-}*/
+
 footer{
     background: #777;
 }
@@ -289,18 +274,20 @@ footer{
     position: relative;
     float: left;
     top: 150px;
-   left: 25%;
+    left: 25%;
     width: 45%;
     background-color: rgba(0, 0, 0,0.7);
+    align-content: center;
 }
  #ispisOsnovnihPodataka{
     position: relative;
     float: left;
-   left: 25%;
     width: 90%;
     font-size: 25px;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
  }
 #daLiSiSiguran{
     position: relative;
@@ -311,32 +298,30 @@ footer{
     border: solid red 2px;
 }
 #zaDa, #zaNe{
-width: 47%;
-margin:1%;
-float: left;
+    width: 47%;
+    margin:1%;
+    float: left;
 }
 #sadrzajProcentaMasti{
     position: relative;
-    display: block;
-    
+    display: block;  
     width: 50%;
     margin-left: 25%;
     top: 150px;
     text-align: center;
     background-color: rgba(0, 0, 0,0.7);
-    height: 400px;
+    min-height: 400px;
 }
 #infoOProcentuMasti{
     margin-top: 5%;
 }
-#infoOProcentuMasti p{
-  
-margin-bottom: 1px;
-margin-top: 1px;
+#infoOProcentuMasti p{ 
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 #formaProcentaMasti fieldset{ 
     width:48%;
-    height: 150px;
+    height: 40vh;
     float: left;
     margin: 1%;
     margin-top: 5%
@@ -344,7 +329,7 @@ margin-top: 1px;
 label {
      width: 10em;
      display: inline-block;
-    }
+}
 #formaProcentaMasti label{
     float: left;
 }
@@ -371,13 +356,13 @@ label {
     height: 500px;
     width: 60%;
     margin-left: 5%;
-    }
+}
 #divOKalorijama{
     position: relative;
     float: left;
     width: 90%;
     align-content: center;
-   margin-left: 5%;
+    margin-left: 5%;
 }
 #upitZaKalorije{
     position: relative;
@@ -410,34 +395,36 @@ label {
     width: auto;
 }
 .divoviPoznatih {
-text-align: center;
+    text-align: center;
 }
 .zatvoritiTabeluPoznatog, .zatvoritiDivVezbi{
     position: relative;
     float: right;
-
-
 }
 #tabelaSaPrepProgramom{
     position: relative;
     float: left;
     width: 50%;
     margin-left: 10%;
+    padding-bottom: 100px;
     top: 160px;
+}
+#tabelaSaPrepProgramom th{
+    text-align: center;
 }
 #divSaVezbama{
     position: relative;
     width: 70%;
     margin-left: 20%;
     top: 140px;
-height: 300px;
+    height: 300px;
 }
 .vezbeZaGrupeMisicaDiv{
-position: relative;
-float: left;
-width: 30%;
-margin: 1%;
-height: 180px;
+    position: relative;
+    float: left;
+    width: 30%;
+    margin: 1%;
+    height: 180px;
 }
 .divSaVezbamaSkriven{
     position: relative;
@@ -446,7 +433,6 @@ height: 180px;
     width: 60%;
     margin-left: 10%;
     background-color: rgba(0, 0, 0,0.7);
-
 }
 .divSaVezbamaSkriven img{
     margin-left: 10%;
@@ -464,7 +450,7 @@ height: 180px;
 }
 .zatvoritiDivVezbi img{
     position: fixed;
-   right: 14%;
+    right: 14%;
 }
 #formaPreporucenogTreninga{
     position: relative;
@@ -520,4 +506,159 @@ width: 20px;
     position: relative;
     top: 100px;
     left: 10%;
+}
+#divSaVezbamaZaZagrevanje, #divKardio{
+    position: relative;
+    float: right;
+    width: 55vw;
+    align-content: center;
+    margin-right: 20vw;
+}
+#divSaVezbamaZaZagrevanje img{
+    width: 90%;
+}
+#divKardio iframe{
+    width: 90%;
+    height: 70vh;
+}
+@media (max-width:1100px){
+    #divoviPoznatih{
+        position: relative;
+        display: block;
+        width: 75vw; 
+        float: left;
+        min-height: 400vh;
+        
+    }
+    .levo,.desno{
+        clear: both;
+        position: relative;
+        float: left;
+        min-height: 150vh;
+        width:70vw;
+        margin-top: 10vh;
+    }
+    .centar{
+        clear: both;
+        position: relative;
+        float: left;
+        top: 25vh;
+        min-height: 100vh;
+        width:70vw;
+    }
+    .desno{
+        margin-top: 30vh;
+    }
+    .desno div,.levo div, .centar div{
+        position: relative;
+        display: inline-block;     
+        height: 50vh;
+        margin-top: 10vh;
+        margin-left: 5vw;
+    }
+  
+}
+@media (max-width:920px){
+    #divKardio, #divSaVezbamaZaZagrevanje{
+        margin-top: 10vh;
+    }
+    #sadrzajProcentaMasti{
+        clear: both;
+        position: relative;
+        display: block;
+        width: 70vh;
+        padding: 0%;
+        margin-top:10vh;
+    }
+    #formaProcentaMasti fieldset{ 
+        display:block;
+        width:70%;
+        min-height: 40vh;
+        float: left;
+        margin: 1%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    label {
+         width: 10em;
+         display: inline-block;
+    }
+    #sadrzajProcentaMasti{ 
+        position: relative;
+        display: block;
+        width: 50vw;
+        margin-left: 30vw;
+        margin-top: 10vh;
+        align-content: center;
+        min-height: 100vh
+    }
+    #racunanjeMasti{
+    position: relative;
+    top: 80vh;
+    }
+    .divSaVezbamaSkriven{
+        margin-top:10vh;
+    }
+    .desno, .levo, .centar{
+        margin-left: 15vw;
+    }
+}
+@media (max-width:800px){
+     .navZaUlogovane,.navNeulogovan{
+        clear: both;
+        position: relative;
+        float: left;
+        top: 20vh;
+        display: inline-block;
+        width: 80vw;
+        margin-right:20vw;
+    }
+.navNeulogovan{
+    margin-bottom: 10vh;
+    align-content: center;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+    border: none
+}
+    
+    .tablink, .tablinkNeulogovan {
+        clear: both;
+        position: relative;
+        float: left;
+        display: block;
+        text-decoration: none;
+        color:white;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 10px 10px 5px;
+        font-family: Arial;
+        font-style: italic;
+        white-space: nowrap;
+        width: 100%;
+    }
+  
+    #izmeniProfil, #home {
+        clear: both;
+        position: relative;
+        float: left;
+        top: 20vh;
+        display: inline-block;
+        width: 80vw;
+        margin-right:20vw;
+    }
+    #daLiSiSiguran{
+        clear: both;
+        position: relative;
+        float: left;
+        top: 25vh;
+    }
+    .kockica{
+        min-width: 150px;
+    }
+}
+@media (max-width:760px){
+    #racunanjeMasti{
+        position: relative;
+        top: 10vh;
+    }
 }

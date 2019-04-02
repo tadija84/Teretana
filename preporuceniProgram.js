@@ -83,7 +83,7 @@ function racunanjePrograma() {
         for (var j = 0; j < dani.length; j++) {
             if (i == dani[j]) {
                 zaIspis += "<tr><th colspan='3'>DAN " + i + ".</th></tr>";
-                zaIspis+="<tr><td>Vežba</td><td>Broj serija</td><td>Broj ponavljanja</td></tr>";
+                zaIspis+="<tr style=' background:rgb(181,211,52)' ><td>Vežba</td><td>Broj serija</td><td>Broj ponavljanja</td></tr>";
                 for (var q = 0; q < vezbeZaDan[program].length; q++) {
                     var brojX = izborNasumicnogBroja(vezbeZaDan[program][q].length);
                     var brojY = izborNasumicnogBroja(vezbeZaDan[program][q].length);

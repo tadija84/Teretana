@@ -12,7 +12,6 @@
 
 <body>
     <form action="?" method="post" id="login">
-
         <h1>FLEX MILLER GYM GUIDE</h1>
         <h3>Dobrodošli</h3>
         <hr>
@@ -72,7 +71,7 @@
         <br>
         <p>Izaberite pol</p>
         <label for="male">Muški</label>
-        <input type="radio" name="gender" value="male" checked>
+        <input type="radio" name="gender" value="male" checked><br>
         <label for="female">Ženski</label>
         <input type="radio" name="gender" value="female">
         <hr>
@@ -99,19 +98,17 @@
     </form>
 
     <form action="?" method="post" id="zaboravljenaSifra">
-
         <h2>Zaboravljena šifra</h2>
         <p>
             <label for="user">Korisničko ime</label>
             <input type="text" id="user2">
             <input type="submit" value="Pošalji">
-
         </p>
     </form>
 
     <div id="mojProfil">
         <img src="./slike/logo.png" alt="logo" id="logo">
-        <nav>
+        <nav class="navZaUlogovane">
             <button class="tablink" id="pocetna">Početna</button>
             <button class="tablink" id="urediProfil">Profil</button>
             <button class="tablink" id="pokaziProgramZaDanas">Današnji trening</button>
@@ -151,35 +148,35 @@
             <h4>Molimo vas unesite vaše podatke</h4>
             <label for="imeKorisnika">Unesite ime</label>
             <input type="text" name="imeKorisnika" id="pravoImeKorisnika">
+            <br>
+            <br>
             <label for="godine">Unesite godine</label>
             <input type="text" name="godine" id="godine">
             <br>
+            <br>
             <label for="visina">Unesite visinu</label>
             <input type="text" name="visina" id="visina">
+            <br>
+            <br>
             <label for="tezina">Unesite težinu</label>
             <input type="text" name="tezina" id="tezina">
             <br>
-            <p>Izaberite pol</p>
-            <label for="male">Muški</label>
-            <input type="radio" name="gender" value="male" checked>
-            <label for="female">Ženski</label>
-            <input type="radio" name="gender" value="female">
             <hr>
             <h3>izaberite modul treninga</h3>
-            <input type="radio" name="modul" value="masa">Izgradnja mišicne mase
-            <input type="radio" name="modul" value="definicija">Definisanje mišica
-            <input type="radio" name="modul" value="snaga">Snaga
-            <input type="radio" name="modul" value="kardio">Kardio
+            <input type="radio" name="modulPromena" value="masa">Izgradnja mišicne mase
+            <input type="radio" name="modulPromena" value="definicija">Definisanje mišica
+            <input type="radio" name="modulPromena" value="snaga">Snaga
+            <input type="radio" name="modulPromena" value="kardio">Kardio
             <br>
             <h3> koliko treninga nedeljno</h3>
             <br>
-            <input type="radio" name="brojTreninga" value="1">1
-            <input type="radio" name="brojTreninga" value="2">2
-            <input type="radio" name="brojTreninga" value="3">3
-            <input type="radio" name="brojTreninga" value="4">4
-            <input type="radio" name="brojTreninga" value="5">5
-            <input type="radio" name="brojTreninga" value="6">6
-            <input type="radio" name="brojTreninga" value="7">7
+            <input type="radio" name="brojTreningaPromena" value="1">1
+            <input type="radio" name="brojTreningaPromena" value="2">2
+            <input type="radio" name="brojTreningaPromena" value="3">3
+            <input type="radio" name="brojTreningaPromena" value="4">4
+            <input type="radio" name="brojTreningaPromena" value="5">5
+            <input type="radio" name="brojTreningaPromena" value="6">6
+            <input type="radio" name="brojTreningaPromena" value="7">7
             <br>
             <button type="submit">Pošalji</button>
             <button type="reset">Obriši</button>
@@ -198,22 +195,22 @@
             <br>
             <input type="submit" value="Promeni">
         </div>
+        
         <div id="program">
             <div id="tabelaNaDan"></div>
-
             <button onclick="stampa('tabelaNaDan')" class="dugmeZaStampu">Štampa</button>
             <br>
         </div>
 
         <div id="programZaSedmicu">
             <div id="tabelaZaSedmicu"></div>
-
             <button onclick="stampa('tabelaZaSedmicu')" class="dugmeZaStampu">Štampa</button>
-
         </div>
+
         <div id="statistika">
             <div id="podaciOPrethodnimTreninzima"></div>
         </div>
+
         <div id="logoutPage">
             <div id="daLiSiSiguran">
                 <button id="zaDa">DA</button>
